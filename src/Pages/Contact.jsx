@@ -3,6 +3,7 @@ import React from 'react'
 function Contact() {
     return (
         <>
+            <section id='contact'>
             <div className='contact'>
                 <h3 className='mt-3 mb-4 ps-5' style={{ color: "orangered" }}>Get in Touch</h3>
                 <hr className='w-75' />
@@ -30,6 +31,7 @@ function Contact() {
                   </div>
                 </div>
             </div>
+            </section>
         </>
     )
 }

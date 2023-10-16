@@ -7,6 +7,7 @@ import Work from './Pages/Work';
 import Contact from './Pages/Contact';
 import { useEffect, useState } from 'react';
 import './Ann_Treesa-CV.pdf'
+
 // import Skill from './Pages/Skill';
 
 
@@ -55,54 +56,63 @@ function App() {
     <div >
 
       <div className={` App${theme} container mt-5 justify-content-center  align-items-center `}>
-        <div className={`App${theme} row d-flex justify-content-center align-items-center`}>
+        <div className={` row d-flex justify-content-center align-items-center`}>
+
           {/* nav */}
-          <div className="col-1 justify-content-center align-items-center mt-3">
-            <div className=' bg-light me-1'><nav className='mb-2 ms-3 mt-4'>
+          <div className="col-lg-1 col-md-2 col-sm-12 justify-content-center align-items-center mt-3">
+            <div className=' bg-light '>
+              <nav className='mb-2 ms-3 mt-4'>
 
-              <li style={{ textDecoration: "none", listStyle: "none", color: "" }}>  <button className='btn'><i className=" mt-4 fa-solid fa-bars fa-xl"></i></button></li>
-              <li style={{ textDecoration: "none", listStyle: "none", color: "" }}> <button onClick={toggleTheme} className='btn'><i className=" mt-3 fa-regular fa-moon fa-xl"></i></button></li>
+                <li style={{ textDecoration: "none", listStyle: "none", color: "" }}>  <button className='btn'><i className=" mt-4 fa-solid fa-bars fa-xl"></i></button></li>
+                <li style={{ textDecoration: "none", listStyle: "none", color: "" }}> <button onClick={toggleTheme} className='btn'><i className=" mt-3 fa-regular fa-moon fa-xl"></i></button></li>
 
 
-            </nav>
+              </nav>
             </div>
 
-            <div className=' bg-light me-1'><nav>
-
+            <div className=' bg-light '>
+              <nav>
               <li style={{ textDecoration: "none", listStyle: "none" }}>  <button onClick={navigate1} className='btn'>
-                <i className="mt-4 fa-solid fa-user fa-xl"></i>
-                About
-                <hr />
-              </button></li>
-              <li style={{ textDecoration: "none", listStyle: "none", color: "" }}> <button onClick={navigate2} className='btn'>
-                <i className=" mt-2 fa-regular fa-note-sticky fa-xl"></i>
-                Resume
-                <hr />
-              </button></li>
-              <li style={{ textDecoration: "none", listStyle: "none", color: "" }}>  <button onClick={navigate3} className='btn'>
-                <i className="mt-2 fa-regular fa-folder-open fa-xl"></i>
-                Works
-                <hr />
-              </button></li>
-              {/* <li style={{ textDecoration: "none", listStyle: "none", color: "" }}> <button onClick={navigate5}  className='btn'>
+                    <i className="mt-4 fa-solid fa-user fa-xl"></i>
+                    About
+                    <hr />
+                  </button></li>
+                {/* <a href='#AboutMe'>
+                  <li style={{ textDecoration: "none", listStyle: "none" }}>  <button onClick={navigate1} className='btn'>
+                    <i className="mt-4 fa-solid fa-user fa-xl"></i>
+                    About
+                    <hr />
+                  </button></li>
+                </a> */}
+                <li style={{ textDecoration: "none", listStyle: "none", color: "" }}> <button onClick={navigate2} className='btn'>
+                  <i className=" mt-2 fa-regular fa-note-sticky fa-xl"></i>
+                  Resume
+                  <hr />
+                </button></li>
+                <li style={{ textDecoration: "none", listStyle: "none", color: "" }}>  <button onClick={navigate3} className='btn'>
+                  <i className="mt-2 fa-regular fa-folder-open fa-xl"></i>
+                  Works
+                  <hr />
+                </button></li>
+                {/* <li style={{ textDecoration: "none", listStyle: "none", color: "" }}> <button onClick={navigate5}  className='btn'>
                 <i className=" mt-2 fa-regular fa-file fa-xl"></i>
                 Skill
                 <hr />
               </button></li> */}
-              <li style={{ textDecoration: "none", listStyle: "none", color: "" }}>  <button onClick={navigate4} className='btn mb-3'>
-                <i className="mt-2 fa-solid fa-envelope fa-xl"></i>
-                Contact
+                <li style={{ textDecoration: "none", listStyle: "none", color: "" }}>  <button onClick={navigate4} className='btn mb-3'>
+                  <i className="mt-2 fa-solid fa-envelope fa-xl"></i>
+                  Contact
 
-              </button></li>
+                </button></li>
 
-            </nav>
+              </nav>
             </div>
 
           </div>
           {/* card */}
-          <div className="col-4  justify-content-center align-items-center ">
+          <div className="col-lg-4 col-md-4 col-sm-12 left-col justify-content-center align-items-center ">
             <div>
-              <div class="card" style={{ width: "27rem", height: "40rem" }}>
+              <div class="card" style={{ height: "40rem" }}>
                 <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" style={{ height: "350px" }} className="imag card-img-top img-fluid " alt="..." />
                 <div className="card-body text-center">
                   <h3 className="card-title mt-3">ANN TREESA BIJU</h3>
@@ -123,9 +133,10 @@ function App() {
 
               </div>
             </div>
+
           </div>
           {/* 3   */}
-          <div style={{ height: "37rem" }} className=" flow col-6 bg-light ">
+          <div style={{ height: "37rem" }} className=" flow  col-lg-6 col-md-6 col-sm-12 bg-light ">
             <Routes>
               {/* about me */}
               <Route path='/' element={<About />} />
@@ -148,3 +159,4 @@ function App() {
 }
 
 export default App;
+

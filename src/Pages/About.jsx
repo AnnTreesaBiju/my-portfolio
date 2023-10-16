@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './About.css'
 function About() {
   return (
     <div>
          {/* about me */}
-        <section id='AboutMe'>
+        <section id='AboutMe' className='expandable'>
         <div className= 'AboutMe' >
               <h3 className='mt-3 mb-4 ps-5' style={{ color: "orangered" }}>About Me</h3>
               <div className='row'>
