@@ -134,8 +134,8 @@ function Resume() {
               <span>97% <h6>HTML</h6></span>
               <div class="left-half-clipper">
                 <div class="first50-bar"></div>
-                <div class="value-bar"></div>tssssss
-              </div>rrrr
+                <div class="value-bar"></div>
+              </div>
             </div>
             <div class="progress-circle over50 p92">
               <span>92%  <h6>React</h6></span>
@@ -144,29 +144,29 @@ function Resume() {
                 <div class="value-bar"></div>
               </div>
             </div>
-            <div class="progress-circle over50 p90">
-              <span>90% <h6>CSS</h6></span>
+            <div class="progress-circle over50 p95">
+              <span>95% <h6>CSS</h6></span>
               <div class="left-half-clipper">
                 <div class="first50-bar"></div>
                 <div class="value-bar"></div>
               </div>
             </div>
-            <div class="progress-circle over50 p90">
-              <span>90% <h6>Bootstrap</h6></span>
+            <div class="progress-circle over50 p95">
+              <span>95% <h6>Bootstrap</h6></span>
               <div class="left-half-clipper">
                 <div class="first50-bar"></div>
                 <div class="value-bar"></div>
               </div>
             </div>
-            <div class="progress-circle over50 p90">
-              <span>90% <h6>Java Script</h6></span>
+            <div class="progress-circle over50 p93">
+              <span>93% <h6>Java Script</h6></span>
               <div class="left-half-clipper">
                 <div class="first50-bar"></div>
                 <div class="value-bar"></div>
               </div>
             </div>
-            <div class="progress-circle over50 p83">
-              <span>83%<h6>PHP</h6></span>
+            <div class="progress-circle over50 p85">
+              <span>85%<h6>PHP</h6></span>
               <div class="left-half-clipper">
                 <div class="first50-bar"></div>
                 <div class="value-bar"></div>

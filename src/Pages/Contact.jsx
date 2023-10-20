@@ -7,8 +7,7 @@ function Contact() {
             <div className='contact'>
                 <h3 className='mt-3 mb-4 ps-5' style={{ color: "orangered" }}>Get in Touch</h3>
                 <hr className='w-75' />
-                <iframe className='p-3' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.0623229847097!2d76.33520887459484!3d10.011710972834024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080ddf7ec52f9d%3A0xb7529ebe26cefa12!2sMayBelle%20Homes%20Ladies%20Hostel!5e0!3m2!1sen!2sin!4v1697022824617!5m2!1sen!2sin" width="100%" height="270" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d16479.643133203786!2d77.0513464827951!3d9.880526034502786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNTInMjguMSJOIDc3wrAwMic1OC41IkU!5e0!3m2!1sen!2sin!4v1697785366575!5m2!1sen!2sin" className='ms-3' width="590" height="270" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                <div>
                     <div className='row mt-4 ms-2'>
                         <div className='col-6'>
                             <h6 style={{ fontSize: "14px", fontWeight: "bold" }}>ADDRESS  <span className='ms-2' />.<span className='ms-2' />  .<span className='ms-2' />  . <span className='ms-2' /> .<span className='ms-2' /> <span className='fw-normal fs-6 '>Cherupaarambil</span>  </h6>

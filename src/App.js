@@ -113,7 +113,7 @@ function App() {
           <div className="col-lg-4 col-md-4 col-sm-12 left-col justify-content-center align-items-center ">
             <div>
               <div class="card" style={{ height: "40rem" }}>
-                <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" style={{ height: "350px" }} className="imag card-img-top img-fluid " alt="..." />
+                <img src="https://img.freepik.com/premium-photo/woman-working-desk-with-laptop-productive-work-flat-design-generative-ai_176697-2775.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696982400&semt=ais" style={{ height: "350px" }} className="imag card-img-top img-fluid " alt="..." />
                 <div className="card-body text-center">
                   <h3 className="card-title mt-3">ANN TREESA BIJU</h3>
                   <div className='txt justify-content-center align-items-center '>
