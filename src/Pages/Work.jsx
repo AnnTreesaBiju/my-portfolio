@@ -7,13 +7,13 @@ function Work() {
                 <h3 className='mt-3 mb-4 ps-5' style={{ color: "orangered" }}>Works</h3>
                 <div className='row'>
                     <div className="col-6 border border-end-0  p-3">
-                         {/* bmi */}
+                         {/* mediaplayer */}
                          <div className='text-center'>
                             <div class="card cr text-center  border-start-0  border-end-0 border-bottom-0  border-top-0 mb-3" style={{ width: " 18rem", height: "200px" }}>
-                                <a href="https://media-player-crud.netlify.app/"> <div class="info">
+                                <a href="https://media-player-crud.netlify.app/" target='_blank'> <div class="info">
                                     <h3 className='text text-light'>    <i className="fa-solid fa-cloud-arrow-up"></i></h3>
                                 </div></a>
-                                <a href="https://media-player-crud.netlify.app/" target='blank'>
+                                <a href="https://media-player-crud.netlify.app/" target='_blank'>
                                     <img className=' image img-fluid rounded shadow' style={{ height: "200px", width: "100%" }} src="https://img.freepik.com/free-vector/realistic-polygonal-background_23-2148916593.jpg" alt="" />
 
                                 </a>
@@ -172,28 +172,11 @@ function Work() {
 
 
                             </div>
-                            <h6 style={{ color: "orangered" }} class="card-title">Registraction Page</h6>
+                            <h6 style={{ color: "orangered" }} class="card-title">Registration Page</h6>
                             <a href="#" class="btn mb-3 ">Link</a>
 
                         </div>
-                        {/* counter*/}
-                        {/* <div className='text-center'>
-                            <div class="card cr text-center  border-start-0  border-end-0 border-bottom-0  border-top-0 mb-3" style={{ width: " 18rem", height: "200px" }}>
-                                <a href="https://counter-application-lac.vercel.app/"> <div class="info">
-                                    <h3 className='text text-light'><i class="fa-solid fa-right-to-bracket"></i></h3>
-                                </div></a>
-                                <a href="https://counter-application-lac.vercel.app/" target='blank'>
-                                    <img className=' image img-fluid rounded shadow' style={{ height: "200px", width: "100%" }} src="https://d3l793awsc655b.cloudfront.net/blog/wp-content/uploads/2022/04/shutterstock_589861949.jpg" alt="" />
-
-                                </a>
-
-
-
-                            </div>
-                            <h6 style={{ color: "orangered" }} class="card-title">Counter Application</h6>
-                            <a href="https://counter-application-lac.vercel.app/" class="btn mb-3 ">Link</a>
-
-                        </div> */}
+                     
 
 
                     </div>

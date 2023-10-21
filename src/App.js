@@ -5,28 +5,22 @@ import { useNavigate } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import Work from './Pages/Work';
 import Contact from './Pages/Contact';
-import { useEffect, useState } from 'react';
 import './Ann_Treesa-CV.pdf'
 
-// import Skill from './Pages/Skill';
 
 
 
 function App() {
 
-  // dark and light
-  const [theme, setTheme] = useState('light');
+//dark mode
+const myfunction =()=>{
+  var element = document.body;
 
-  const toggleTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark')
-    } else {
-      setTheme('light')
-    }
-  }
-  useEffect(() => {
-    document.body.className = theme;
-  }, [theme])
+
+   element.classList.toggle("dark-mode");
+
+} 
+
   // return method for chaing the location
   // fun comp. react feature kodukan
   const navigateNyUrl = useNavigate("")
@@ -53,10 +47,10 @@ function App() {
 
 
   return (
-    <div >
+    <section >
 
-      <div className={` App${theme} container mt-5 justify-content-center  align-items-center `}>
-        <div className={` row d-flex justify-content-center align-items-center`}>
+      <div className={`  container mt-5 justify-content-center  align-items-center `}>
+        <div className={`row d-flex justify-content-center align-items-center`}>
 
           {/* nav */}
           <div className="col-lg-1 col-md-2 col-sm-12 justify-content-center align-items-center mt-3">
@@ -64,7 +58,7 @@ function App() {
               <nav className='mb-2 ms-3 mt-4'>
 
                 <li style={{ textDecoration: "none", listStyle: "none", color: "" }}>  <button className='btn'><i className=" mt-4 fa-solid fa-bars fa-xl"></i></button></li>
-                <li style={{ textDecoration: "none", listStyle: "none", color: "" }}> <button onClick={toggleTheme} className='btn'><i className=" mt-3 fa-regular fa-moon fa-xl"></i></button></li>
+                <li style={{ textDecoration: "none", listStyle: "none", color: "" }}> <button onClick={myfunction}  className='btn'><i className=" mt-3 fa-regular fa-moon fa-xl"></i></button></li>
 
 
               </nav>
@@ -154,7 +148,7 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
